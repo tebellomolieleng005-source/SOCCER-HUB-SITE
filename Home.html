@@ -1,0 +1,410 @@
+<html>      
+<head>      
+<title>Soccer Home</title>      
+<style type="text/css">      
+
+.one{      
+  margin-left:60px;      
+  background-color:green;      
+  width:300px;      
+  height:390px;      
+  margin-top:16px;      
+  float:left;      
+  text-align:center;      
+  padding:15px;      
+  border-radius:12px;      
+  box-shadow:0 8px 20px black;      
+  transition:0.3s;      
+  box-sizing:border-box; 
+}      
+
+.two{      
+  margin-left:40px;      
+  background-color:green;      
+  width:300px;      
+  height:390px;      
+  margin-top:16px;      
+  float:left;      
+  text-align:center;      
+  padding:15px;      
+  border-radius:12px;      
+  box-shadow:0 8px 20px black;      
+  transition:0.3s;      
+  box-sizing:border-box; 
+}      
+
+.three{      
+  margin-left:40px;      
+  background-color:green;      
+  color:black;      
+  width:300px;      
+  height:390px;      
+  margin-top:16px;      
+  float:left;      
+  text-align:center;      
+  padding:15px;      
+  border-radius:12px;      
+  box-shadow:0 8px 20px black;      
+  transition:0.3s;      
+  box-sizing:border-box; 
+}      
+
+.header{      
+  background-color:black;      
+  color:white;      
+  width:1070px;      
+  margin-left:60px;      
+  border-radius:20px;      
+  padding:10px 20px;      
+  position:relative;      
+  box-sizing:border-box;      
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between; 
+}   
+
+.logo{   
+  width:70px;   
+  height:70px;   
+}   
+
+.header h1{      
+  color:white;      
+  margin:0;      
+  padding:0;      
+  text-align:center;      
+  flex-grow:1; 
+}      
+
+nav{      
+  text-align:right;      
+}     
+
+nav a{      
+  color:white;      
+  text-decoration:none;      
+  font-weight:bold;      
+  background-color:green;      
+  padding:8px;      
+  border-radius:5px;      
+  margin:5px;      
+  display:inline-block;    
+}      
+
+nav a:hover{      
+  background-color:limegreen;      
+}      
+
+.ft{      
+  margin-top:450px;      
+  text-align:center;      
+}      
+
+footer{      
+  text-align:center;      
+  margin-top:30px;      
+  background-color:black;      
+  height:100px;      
+  color:white;      
+  padding:35px;    
+  box-sizing:border-box; 
+}      
+
+@media screen and (max-width:1100px){
+
+  .header{
+    width:90%;
+    margin-left:5%;
+  }
+
+  .one,
+  .two,
+  .three{
+    width:28%;
+    margin-left:3.5%;
+    margin-right:0;
+  }
+
+  .one img,
+  .two img,
+  .three img{
+    width:100%;
+    height:auto;
+  }
+
+}
+
+@media screen and (max-width:768px){     
+
+  .header{     
+    width:90%;     
+    margin-left:5%;     
+    height:auto;     
+    flex-direction:column; 
+    padding:15px;
+  }     
+
+  .logo{   
+    width:70px;   
+    height:70px;   
+    margin:5px auto;   
+    display:block;   
+  }   
+
+  .header h1{     
+    font-size:24px;     
+    margin:5px 0; 
+  }     
+
+  nav{     
+    text-align:center;    
+    margin-top:10px;     
+  }     
+
+  nav a{     
+    display:inline-block;     
+    margin:3px;     
+    padding:6px;     
+  }     
+
+  .one,     
+  .two,     
+  .three{     
+    float:none;     
+    display:block; 
+    width:90%;     
+    height:auto;     
+    min-height:390px;    
+    margin-left:auto;     
+    margin-right:auto;     
+    margin-top:20px;     
+    padding:15px; 
+    box-sizing:border-box; 
+  }     
+
+  .one img,     
+  .two img,     
+  .three img{     
+    width:100%;     
+    height:auto;     
+  }     
+
+  .ft{     
+    margin-top:30px;     
+  }     
+
+  footer{     
+    height:80px;     
+    padding:25px;    
+  }     
+
+}     
+
+@media screen and (max-width:480px){     
+
+  .header{     
+    width:94%;     
+    margin-left:3%;     
+    margin-top:10px;    
+    border-radius:12px;    
+    padding:8px;    
+    box-sizing:border-box; 
+    flex-direction:column; 
+  }     
+
+  .logo{   
+    width:60px;   
+    height:60px;   
+    margin:3px auto;   
+  }   
+
+  .header h1{     
+    font-size:20px;     
+    margin:5px;    
+    padding:5px;    
+  }     
+
+  nav{     
+    width:100%;    
+    margin-top:5px;    
+    text-align:center; 
+  }     
+
+  nav a{     
+    font-size:12px;     
+    padding:7px;     
+    margin:2px;    
+  }     
+
+  .one,     
+  .two,     
+  .three{     
+    float:none; 
+    display:block;    
+    width:90%;    
+    height:auto;    
+    min-height:0;    
+    margin-left:auto;    
+    margin-right:auto;    
+    margin-top:20px;    
+    padding:15px; 
+    box-sizing:border-box; 
+  }     
+
+  .one img,     
+  .two img,     
+  .three img{     
+    width:100%;    
+    height:auto;    
+  }    
+
+  .one p,    
+  .two p,    
+  .three p{    
+    font-size:14px;    
+  }    
+
+  .two ul{    
+    text-align:left;    
+  }    
+
+  .one table,
+  .three table{
+    width:100%;
+  }
+
+  .ft{     
+    margin-top:30px;    
+  }     
+
+  footer{     
+    height:80px;    
+    padding:25px;    
+    font-size:13px; 
+    box-sizing:border-box; 
+  }     
+
+}    
+
+</style>      
+</head>      
+
+<body>  
+
+<div class="header">      
+
+<img src="logo.png" class="logo">  
+
+<h1>SOCCER HUB</h1>      
+
+<nav>      
+
+<a href="home.html">HOME</a>      
+
+<a href="contact.html">CONTACT US</a>      
+
+<a href="part.html">ABOUT US</a>      
+
+</nav>      
+
+</div>     
+
+<div class="one">      
+
+<img src="soccerplayer.jpg" width="280" height="180"/>      
+
+<p><b>ROLEMODEL</b></p>      
+
+<p>Greatest players inspire us every day</p>      
+
+<p>FIFA player of the year</p>      
+
+<table border="1" width="100%">      
+
+<tr>      
+
+<td>LEBUSA</td>      
+
+<td>7 Ballon d'Or</td>      
+
+</tr>      
+
+<tr>      
+
+<td>KEKE</td>      
+
+<td>8 Ballon d'Or</td>      
+
+</tr>      
+
+</table>      
+
+<br>      
+
+</div>      
+
+<div class="two">      
+
+<img src="soccerball.jpg" width="280" height="180"/>      
+
+<p><b>THE GAME</b></p>      
+
+<p>11 players, 90 minutes, 1 goal</p>      
+
+<p>Played in 100+ countries</p>      
+
+<ul>      
+
+<li>2 teams</li>      
+
+<li>1 referee</li>      
+
+<li>4 officials</li>      
+
+</ul>      
+
+</div>      
+
+<div class="three">      
+
+<img src="stadium.jpg" width="280" height="180"/>      
+
+<p><b>BAMBATHA</b></p>      
+
+<p>The biggest tournament in the world</p>      
+
+<p>Next: 2026 USA/Mexico/Canada</p>      
+
+<table border="1" width="100%">      
+
+<tr>      
+
+<td>Mpaola</td>      
+
+<td>4 Titles</td>      
+
+</tr>      
+
+<tr>      
+
+<td>Brazil</td>      
+
+<td>4 Titles</td>      
+
+</tr>      
+
+</table>      
+
+<br>      
+
+</div>      
+
+<footer class="ft">      
+
+@copyrights      
+
+</footer>      
+
+</body>      
+
+</html>

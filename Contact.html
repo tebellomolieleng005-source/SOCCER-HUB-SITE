@@ -1,0 +1,390 @@
+<html>
+
+<head>
+
+<title>Contact Soccer</title>
+
+<style type="text/css">
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  background-color:none;
+  font-family:Arial;
+  margin:0;
+  padding:0;
+}
+
+.header{
+  background-color:black;
+  color:white;
+  width:1070px;
+  margin-left:60px;
+  border-radius:20px;
+  padding:10px;
+  display:flex;
+  align-items:center;
+  position:relative;
+}
+
+.logo{
+  width:90px;
+  height:90px;
+  margin-left:15px;
+  object-fit:contain;
+}
+
+.header h1{
+  color:white;
+  margin-left:260px;
+  margin-right:auto;
+  padding:10px;
+  white-space:nowrap;
+}
+
+nav{
+  margin-right:15px;
+  white-space:nowrap;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  background-color:green;
+  padding:8px;
+  border-radius:5px;
+  margin:5px;
+  display:inline-block;
+}
+
+nav a:hover{
+  background-color:limegreen;
+}
+
+.contact{
+  background-color:white;
+  width:90%;
+  max-width:800px;
+  margin:40px auto;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:5px 5px 15px gray;
+}
+
+.info{
+  background-color:green;
+  color:white;
+  width:40%;
+  padding:20px;
+  float:left;
+  text-align:center;
+  border-radius:10px;
+}
+
+.form{
+  width:55%;
+  float:right;
+  padding:10px;
+}
+
+input, textarea{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border:1px solid gray;
+  border-radius:5px;
+}
+
+textarea{
+  height:100px;
+}
+
+button{
+  background-color:green;
+  color:white;
+  padding:10px 25px;
+  border:none;
+  border-radius:5px;
+  font-weight:bold;
+}
+
+button:hover{
+  background-color:limegreen;
+}
+
+.clear{
+  clear:both;
+}
+
+.footer{
+  text-align:center;
+  margin-top:30px;
+  background-color:black;
+  height:100px;
+}
+
+footer{
+  color:white;
+  text-align:center;
+  padding:35px;
+}
+
+@media screen and (max-width:1100px){
+
+  .header{
+    width:90%;
+    margin:15px auto;
+  }
+
+  .header h1{
+    margin-left:auto;
+  }
+
+}
+
+@media screen and (max-width:768px){
+
+  .header{
+    width:90%;
+    margin:15px auto;
+    height:auto;
+    display:block;
+    text-align:center;
+  }
+
+  .logo{
+    width:70px;
+    height:70px;
+    margin:5px auto;
+    display:block;
+  }
+
+  .header h1{
+    font-size:24px;
+    margin:5px;
+    padding:5px;
+  }
+
+  nav{
+    margin:10px 0 0 0;
+    text-align:center;
+  }
+
+  nav a{
+    display:inline-block;
+    margin:3px;
+    padding:7px;
+  }
+
+  .contact{
+    width:90%;
+    padding:20px;
+    margin:25px auto;
+  }
+
+  .info{
+    width:100%;
+    float:none;
+    margin-bottom:20px;
+    padding:20px;
+  }
+
+  .form{
+    width:100%;
+    float:none;
+    padding:10px 0;
+  }
+
+  input, textarea{
+    width:100%;
+  }
+
+  button{
+    width:auto;
+  }
+
+}
+
+@media screen and (max-width:480px){
+
+  .header{
+    width:94%;
+    margin:10px auto;
+    border-radius:12px;
+    padding:8px;
+  }
+
+  .logo{
+    width:60px;
+    height:60px;
+    margin:3px auto;
+  }
+
+  .header h1{
+    font-size:20px;
+    margin:5px;
+    padding:5px;
+  }
+
+  nav{
+    width:100%;
+    text-align:center;
+    margin-top:5px;
+  }
+
+  nav a{
+    display:inline-block;
+    font-size:12px;
+    padding:7px;
+    margin:2px;
+  }
+
+  .contact{
+    width:94%;
+    padding:15px;
+    margin:20px auto;
+    border-radius:10px;
+  }
+
+  .info{
+    width:100%;
+    float:none;
+    padding:15px;
+    margin-bottom:20px;
+  }
+
+  .info h2{
+    font-size:20px;
+  }
+
+  .info p{
+    font-size:14px;
+  }
+
+  .form{
+    width:100%;
+    float:none;
+    padding:5px 0;
+  }
+
+  .form h2{
+    font-size:19px;
+  }
+
+  .form p{
+    font-size:14px;
+  }
+
+  input, textarea{
+    width:100%;
+    margin:8px 0;
+    padding:10px;
+  }
+
+  textarea{
+    height:100px;
+  }
+
+  button{
+    width:100%;
+    padding:10px;
+  }
+
+  .footer{
+    height:80px;
+    margin-top:20px;
+  }
+
+  footer{
+    padding:25px;
+    font-size:13px;
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<img src="logo.png" class="logo">
+
+<h1>SOCCER HUB</h1>
+
+<nav>
+
+<a href="Home.html">HOME</a>
+
+<a href="Contact.html">CONTACT US</a>
+
+<a href="part.html">ABOUT US</a>
+
+</nav>
+
+</div>
+
+<div class="contact">
+
+<div class="info">
+
+<h2>CONTACT US</h2>
+
+<p>We would love to hear from you.</p>
+
+<p><b>Coach</b></p>
+
+<p>Mr Tumo</p>
+
+<p><b>Phone</b></p>
+
+<p>5000 1234</p>
+
+<p><b>Email</b></p>
+
+<p>soccer@hub.ls</p>
+
+<p><b>Location</b></p>
+
+<p>Maseru, Lesotho</p>
+
+</div>
+
+<div class="form">
+
+<h2>SEND US A MESSAGE</h2>
+
+<p>Have a question? Send us a message.</p>
+
+<input type="text" placeholder="Full Name">
+
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Subject">
+
+<textarea placeholder="Write your message"></textarea>
+
+<br>
+
+<button>SEND MESSAGE</button>
+
+</div>
+
+<div class="clear"></div>
+
+</div>
+
+<div class="footer">
+
+<footer>@copyrights</footer>
+
+</div>
+
+</body>
+
+</html>
